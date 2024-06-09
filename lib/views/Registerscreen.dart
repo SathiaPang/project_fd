@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_fd/constants.dart';
+import 'package:project_fd/views/Homescreen.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -14,7 +15,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool _isChecked = false;
 
   void onSignUpTapped() {
-    print("you tofuch me");
+    print("you to fuch me");
   }
 
   @override
@@ -161,7 +162,7 @@ class Button extends StatelessWidget {
         ),
       ),
       onPressed: () {
-        print("Hello there");
+        Get.to(HomeScreen());
       },
       child: Container(
         height: Get.height * 0.06,
