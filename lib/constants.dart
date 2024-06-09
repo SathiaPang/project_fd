@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const green = Color.fromRGBO(41, 110, 72, 1);
 const greenAccent = Color(0xffE8F8EF);
-const black = Colors.black;
+const black = Color.fromARGB(255, 202, 117, 117);
 const white = Colors.white;
 const textColor = Color(0xff616161);
 var borderfield = Colors.grey.shade300;
