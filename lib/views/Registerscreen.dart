@@ -162,7 +162,7 @@ class Button extends StatelessWidget {
         ),
       ),
       onPressed: () {
-        Get.to(HomeScreen());
+        Get.to(() => HomeScreen());
       },
       child: Container(
         height: Get.height * 0.06,
